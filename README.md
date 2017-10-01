@@ -4,7 +4,7 @@ Small microservice that provides data on UK clinics.
 
 ## Description
 
-This microservice was developed using `nodejs v4.2.6`. In order to install the Node.js dependencies run `npm install`. This project expects to have MongoDB install in the machine and the DB user/password can be defined in the `./config/db.js` file or by the node environment variables `DB_USER` and `DB_PASS`.
+This microservice was developed using `nodejs v4.2.6`. In order to install the Node.js dependencies run `npm install`. This project expects to have MongoDB install in the machine and the DB URL can be defined in the `./config/db.js` file or by the node environment variable `DB_URL`.
 
 The API is defined inside of the `./api` folder and can be easily extended by importing new API files inside of the `./api/index.js` file.
 

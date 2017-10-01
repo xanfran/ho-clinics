@@ -2,7 +2,7 @@
 const server = require('./server/server');
 const config = require('./config');
 const dbClient = require('./db');
-const repository = require('./repository/clinics/clinics');
+const repository = require('./repository');
 const EventEmitter = require('events');
 const mediator = new EventEmitter();
 

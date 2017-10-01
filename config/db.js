@@ -1,6 +1,5 @@
 const dbSettings = {
-  user: process.env.DB_USER || 'user',
-  pass: process.env.DB_PASS || 'password'
+  url: process.env.DB_URL || 'mongodb://localhost:27017/clinics'
 };
 
 // Create a new object to prevent modifications in these settings

@@ -1,15 +1,19 @@
 {
   "name": "ho-clinics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small microservice that provides data on UK clinics.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "mocha api/*.spec.js",
     "debug:app": "DEBUG=* node .",
     "lint": "node_modules/jshint/bin/jshint *.js server/*.js api/*.js db/*.js config/*.js repository/**/*.js"
   },
   "author": "xanfran",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xanfran/ho-clinics/issues"
+  },
   "devDependencies": {
     "jshint": "^2.9.5",
     "supertest": "^3.0.0"

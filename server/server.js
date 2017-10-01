@@ -25,7 +25,6 @@ const start = (options) => {
 
     // Start the server in the desired port
     const server = app.listen(options.port, () => {
-      console.info('Server listening in ' + options.port + ' port');
       resolve(server);
     });
   });
